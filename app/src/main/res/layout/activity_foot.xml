@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--    android:background="#15087CEEB"-->
+<!--    android:alpha="0.9"-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_marginTop="5dp"
+    android:background="#ffffff"
+    android:layout_height="55dp">
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="-4dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_height="35dp"
+            android:layout_width="wrap_content"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:src="@drawable/table"/>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+
+            android:text="Table"/>
+
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="-4dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_height="35dp"
+            android:layout_width="wrap_content"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:src="@drawable/score"/>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="Score"/>
+
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="-4dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_height="35dp"
+            android:layout_width="wrap_content"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:src="@drawable/music"/>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="Music"/>
+
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="-4dp"
+        android:layout_weight="1">
+
+        <ImageView android:layout_height="35dp"
+            android:layout_width="wrap_content"
+            android:src="@drawable/news"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="News"/>
+
+    </LinearLayout>
+
+</LinearLayout>
